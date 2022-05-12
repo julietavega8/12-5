@@ -1,0 +1,61 @@
+@media (max-width: 375px) {
+    .cards{
+        flex-direction: column;
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    color: white;
+    width: 70%;
+    height: 60vh;
+}
+
+.cards text{
+    border: 20px;
+}
+
+
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+}
+
+.boton {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 200px;
+    padding: 15px;
+    width: 150px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.boton1 {
+    color: hsl(31, 77%, 52%);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
